@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.cards-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.buttons-layout {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.swipe-button {
+  padding: 10px;
+  margin: 10px;
+}
